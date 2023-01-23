@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Mesa de Servicio</h1>
+    <h2>Comienzo de la mesa de servicio </h2>
 </body>
 </html>
