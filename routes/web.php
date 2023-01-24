@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/mesa_servicio','MesaController@mesa_index_controller');
+Route::get('/','MesaController@mesa_index_controller');
