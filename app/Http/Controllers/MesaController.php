@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class MesaController extends Controller
 {
     public function mesa_index_controller(){
-        return view('home');
+        return view('conten/inicio');
+    }
+
+    public function mesa_inicio_controller(){
+        return view('');
     }
 }
+

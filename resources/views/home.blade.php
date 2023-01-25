@@ -6,21 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesa-de-Servicio</title>   
   <link rel="stylesheet" href="{{ asset('css/estilos.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}" />   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
+  
+    
 </head>
 <body>    
 @include('layouts/header/header')
-@include('layouts/navbar/navbar')
-    
-    <div class="container">
-        <div class="row">
-           <section>
+@include('layouts/navbar/navbar')    
+    <div class="contenido" >           
                  @yield('content')
-                 
-           </section>           
-        </div>        
-    </div>
-
-
-
+    </div>                           
 </body>
 </html>
