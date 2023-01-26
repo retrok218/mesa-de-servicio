@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','MesaController@mesa_index_controller');
 Route::get('/inicio','MesaController@mesa_inicio_controller');
+Route::get('/formatos','MesaController@formato_controller');
 // Route::get();
 // Route::get();
 // Route::get();

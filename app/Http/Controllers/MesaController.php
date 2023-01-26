@@ -13,5 +13,8 @@ class MesaController extends Controller
     public function mesa_inicio_controller(){
         return view('');
     }
+    public function formato_controller(){
+        return view('conten/formatos');
+    }
 }
 

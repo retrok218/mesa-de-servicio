@@ -1,147 +1,51 @@
-
-html {  
-    position: relative;  
-    min-height: 100%;  
-}  
-body {  
-    padding-top: 1rem;  
-    margin-bottom: 1rem;  
-}  
-.footer {  
-  position: absolute;  
-  bottom: 0;  
-  width: 100%;  
-  height: 3.5rem;  
-  line-height: 3.5rem;  
-  background-color: #ccc;  
-}  
-.bg-dark {  
-    background-color: #a02042b6!important;  
-}  
-.nav-link:hover {  
-  transition: all 0.4s;  
-}  
-.nav-link-collapse:after {  
-  float: right;  
-  content: '\f067';  
-  font-family: 'FontAwesome';  
-}  
-.nav-link-show:after {  
-  float: right;  
-  content: '\f068';  
-  font-family: 'FontAwesome';  
-}  
-.nav-item ul.nav-second-level {  
-  padding-left: 0;  
-}  
-.nav-item ul.nav-second-level > .nav-item {  
-  padding-left: 20px;  
-}  
- @media (min-width: 992px) {  
-  .sidenav {  
-    position: absolute;  
-    top: 0;  
-    left: 0;  
-    width: 230px;  
-    height: calc(100vh - 3.5rem);  
-    margin-top: 3.5rem;  
-    background: #343a40;  
-    box-sizing: border-box;  
-    border-top: 1px solid rgba(0, 0, 0, 0.3);  
-  }  
-  .navbar-expand-lg .sidenav {  
-    flex-direction: column;  
-  }   
-  .content-wrapper {  
-    margin-left: 230px;  
-  }  
-  .footer {  
-    width: calc(100% - 230px);  
-    margin-left: 230px;  
-  }  
-}    
-
-.logo_cdmx {
-    width: 60%;
-    position: relative;
-    vertical-align: middle;
-    /* margin-left: 20%; */
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+.principal {
+  width: 75%;
+}
+.sidebar {
+  width: 23%;
+  overflow: auto;
 
-.heat{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .wrapper .sidebar{
 
-    background: rgb(162 15 59);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 274px;
-    height: 100%;
-    padding: 25px 0;
-    transition: all 0.5s ease;
+  background: rgb(162 15 59);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 100%;
+  padding: 25px 0;
+  transition: all 0.5s ease;
+  max-width: 20%;
+  min-width: 20%;
 }
 .logo3 {
-    width: 80%;
-    position: relative;
-    vertical-align: middle;    
-    align-items: center;
-    margin: 0 auto;
-    display: flex;
-    margin-top: -37px;
+  width: 80%;
+  position: relative;
+  vertical-align: middle;    
+  align-items: center;
+  margin: 0 auto 16px;
+  display: flex;
+  margin-top: -37px;
 
 }
-.ulcdmx{
-    color: rgb(255, 255, 255) !important; 
-    cursor: pointer;
-    /* margin-bottom: 0px;
-    margin-left: -18px; */
-    margin-bottom: auto;
-    margin-left: auto;
+.heat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
-.ulcdmx a{
-    color: white;
-    font-size: 13px;
-    text-decoration: none;
-    font-weight: 400;
-    transition: 1.1s;
-}
-
-.ulcdmx :hover{
-    color: #bc955b;
-    transition: background-color 1s;
-}
-
-.contenido{
-  margin-left: 20em;
-  margin-right: 2em;
-}
-ul p{
-  color: #bdb9b9;
-  /* font-size: 12px;  */
-  margin: 0;
-  margin-left: auto;
-  font-weight: bolder;
-  font-size: 1vw;
-
-} 
-
-ul{
-  list-style: none;
-  padding-inline-start: 0px; 
-padding-inline-end: 4px;
-}
-
-
-aside hr{
-  color: rgb(142, 145, 145) !important;
-  /* margin: 16px 16px 18px -35px; */
-  margin: auto -4em;
+.logo_cdmx {
+  width: 80%;
+  position: relative;
+  vertical-align: middle;
+  /* margin-left: 20%; */
 }
 .tit{
   font-size:  2em;    
@@ -155,62 +59,111 @@ aside hr{
     margin: 0 auto;
 
 }
-
-
-
-
-
-
-
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+.ulcdmx{
+  color: rgb(255, 255, 255) !important; 
+  cursor: pointer;
+  /* margin-bottom: 0px;
+  margin-left: -18px; */
+  margin-bottom: auto;
+  margin-left: 40px;
+  list-style: none;
 }
-
-.sidebar a {
-  display: block;
-  color: rgb(255, 255, 255);
-  padding: 16px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: #04AA6D;
+.ulcdmx a{
   color: white;
+  font-size: 1.3vw;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 1.1s;
 }
 
-.sidebar a:hover:not(.active) {
-  background-color: #bc955b;
-    color: #156202;
-    font-size: 15px;
-    transition: 0.5s;
+.ulcdmx :hover{
+  color: #bc955b;
+  transition: background-color 1s;
 }
 
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+.contenido{
+margin: auto 2% auto 22%;
+min-width: 20%;
+max-width: 100%;
+
+}
+aside p{
+color: #bdb9b9;
+/* font-size: 12px;  */
+/* margin: 0;
+margin-left: auto; */
+margin: auto auto auto 5px;
+font-weight: bolder;
+
+font-size: 1.1vw;
+
+
+} 
+
+.ul{
+list-style: none;
+/* padding-inline-start: 0px;  */
+padding-inline-end: 4px;
 }
 
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+
+.col hr{
+  margin: 21px 1px 19px 0px;
+/* margin: 16px 16px 18px -35px; */
+/* margin: auto -4em; */
 }
 
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+
+.breadcrumb
+{
+  background: #bc955b;
+    box-shadow: 0px 0.1px 5px 1px #a02042;
+}
+.breadcrumb_list
+{
+  padding: 2px 0;
+  margin: auto auto 19px auto;
+}
+.breadcrumb_list li
+{
+  list-style-type:none;
+  display:inline;
+  margin:0px 20px;
+}
+.breadcrumb_list a
+{
+  color:#b3b3b3;
+  font-size:18px;
+  text-decoration:none;
+  font-family: "Arial";
+}
+.breadcrumb_list a:visited,.breadcrumb_list a:hover
+{
+  color: #ffffff;
+}
+.li-1:after
+{
+  content:"/";
+  padding-left:20px;
+  color:#ffffff;;
+}
+
+.formatos_down{
+  background: rgb(162 15 59);
+  
+}
+.formatos_down a{
+  color: white;
+  font-size: 1.5vw;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.formatos_down a:hover{
+  font-size: 2vw;
+  transition: 1.1s;
+}
+
+.formatos{
+  margin: 1px 0px 15px 0px;
 }
