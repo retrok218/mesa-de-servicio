@@ -22,8 +22,11 @@
             @include('layouts/navbar/navbar')  
         </div>     
         <div class="principal">
-            @include('layouts/header/header')            
+            @include('layouts/header/header')
+            <div class="container contcuerpo">
             @yield('content')
+            </div>            
+            
             @include('layouts/footer/foother')
         </div>                               
     </div> 

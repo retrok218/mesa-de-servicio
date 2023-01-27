@@ -141,7 +141,7 @@ padding-inline-end: 4px;
 .breadcrumb_list a
 {
   color:#b3b3b3;
-  font-size:18px;
+  font-size:12px;
   text-decoration:none;
   font-family: "Arial";
 }
@@ -167,21 +167,21 @@ padding-inline-end: 4px;
   text-decoration: none;
   font-weight: 400;
   transition: 0.5s;
-  margin: 0 0 0 6px;
+  margin: 0 0 0 0px;
   
 }
 .formatos_down a:hover{
   font-size: 1.6vw;
-  transition: 1.1s;
-  color: #ffffff;
-  text-decoration: none;
+    transition: 0.5s;
+    color: #bc955b;
+    text-decoration: none;
 }
 
 .formatos{
   text-align: inherit;
-  margin: 9px 0 2px 0px;
-  background-color: #a20f3b;
-  margin-left: 2%;
+    margin: 6px 0 2px 0px;
+    background-color: #a20f3b;
+  /* margin-left: 2%; */
   
 }
 
@@ -203,7 +203,7 @@ dl, ol, ul {
   list-style: none; */
   background-color: #bc955b;
   border-radius: 11.25rem;
-  margin: auto 9px;
+  margin: auto 27px;
 }
 
 .owavid{
@@ -213,11 +213,71 @@ dl, ol, ul {
 }
 
 .footer{
-  background-color: #a20f3b;
+  /* background-color: #a20f3b;
   padding: 1em 0;
   text-align: initial;
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: white; */
+  background-color: #a20f3b;
+  padding: 0em 0;
+  text-align: initial;
+  position: absolute;
+  bottom: 0;
+  width: -webkit-fill-available;
   color: white;
 }
+
+.portada{
+  margin: 0 0 0 20px;  
+}
+
+.caja-shadow{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.datosfoot a, .datosfoot li{
+  font-size: 12px;
+    color: white;
+}
+
+.footer-site-links {
+  float: right;
+    padding: 0px 0px 0px 0px;
+    width: 47%;
+    text-align: right;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+}
+.footer-site-links li {
+  display: inline-block;
+}
+.footer-site-links li {
+  position: relative;
+  background: none;
+  width: auto;
+  height: auto;
+  line-height: 20px;
+  margin: 0 10px 1px 1px;
+  font-size: 12px;
+}
+
+.contcuerpo{
+  position: relative;
+    padding-bottom: 4em;
+    /* min-height: 100vh; */
+}
+
+.logo_cdmx_food{
+  width: 40%;
+  position: relative;
+  vertical-align: middle;
+  /* margin-left: 20%; */
+  margin: 0px 1px 1px -41px;
+}
+
