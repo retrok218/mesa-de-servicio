@@ -1,6 +1,6 @@
 @extends('home')
 @section('content')
-        <div class="breadcrumb">
+        <div class="migas">
             <ul class="breadcrumb_list">
                 <li class="li-1"> <a href='/'><i class="bi bi-house-door"></i> Home</a></li>            
             </ul>
