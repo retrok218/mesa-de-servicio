@@ -9,7 +9,14 @@
 
 <div class="portada">
     <div class="shadow p-3 mb-5 bg-body rounded">
-        <section style="background-color: #a20f3b; color:white">        
+        <section style="background-color: #a20f3b; color:white">  
+        
+        <div class="wrapper">
+            <div class="cabezzzza">
+                <h1>wabes csss</h1>
+            </div>
+            <div class="wave"></div>
+        </div>
             <div class="tit">
                 Mesa de Servicio de la Secretaría de Administración y Finanzas
             </div>            
