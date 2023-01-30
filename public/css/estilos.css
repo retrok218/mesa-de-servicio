@@ -284,12 +284,13 @@ footer ul li {
 }
 
 .wrapper{
-  width: 863px;
-  height: 157px;
+  width: 500px;
+  height: 500px;
   position: absolute;
   /* left: 50%; */
   /* top: 50%; */
   /* transform: inherit; */
+  transform: translate(-50%, -50%);
   border-radius: 5%;
   background: #ffffff;
   overflow: hidden;
@@ -305,7 +306,7 @@ footer ul li {
   margin: -500px;
   margin-top: -500px;
   border-radius: 45%;
-  background: #218;
+  background: #a20f3b;
   z-index: 999;
   opacity: 1;
   animation: wave 15s infinite linear;
@@ -346,3 +347,11 @@ footer ul li {
   
 }
 
+@keyframes wave{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+}

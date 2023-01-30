@@ -1,7 +1,11 @@
 
     <div class="wrapper">
         <div class="sidebar">
-        <img src="{{URL::asset('media/img/logo3.png')}}" class="logo3">
+           
+            <a href="{{url("/")}}">
+                <img src="{{URL::asset('public/media/img/logo3.png')}}" class="logo3">
+            </a>
+        
             <aside>      
                 <div class="row nav" style="margin: 0 0 5em 0;">
                     <div class="">

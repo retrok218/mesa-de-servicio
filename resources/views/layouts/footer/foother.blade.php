@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="conteiner">
-<img src="{{URL::asset('media/img/logotipo SAF-07.png')}}" class="logo_cdmx_food "> 
+<img src="{{URL::asset('public/media/img/logotipo SAF-07.png')}}" class="logo_cdmx_food "> 
 <!-- <p>Secretaría de Administración y Finanzas del Gobierno de la Ciudad de México</p> -->
      <ul class= "footer-site-links ">
        
